@@ -114,9 +114,6 @@ ul {
 
 }
 
-
-
-
 /* <!-- primo flex (celeste/rosa) --> */
 
 .skyrose {
@@ -144,7 +141,6 @@ ul {
 .rosesub p {
     padding-top: 20%;
 }
-
 
 /* secondo flex (rosa/celeste) */
 
@@ -188,7 +184,7 @@ ul {
 
 .green h2 {
     margin-bottom: 50px;
-    background-image: url(../img/stars.svg) ;
+    background-image: url(../img/stars.svg);
     margin-top: 80px;
     background-size: 80%;
     padding: 20px;
@@ -221,38 +217,61 @@ ul {
     padding: 0% 3% 3% 3%;
     width: 27%;
 }
-.rose h2{
+
+.rose h2 {
     display: block;
     text-align: left;
     color: #788ddb;
 }
-.rose p{
+
+.rose p {
     text-align: left;
     color: white;
-    font-size: 12px; 
-    display: inline-block;  
+    font-size: 12px;
+    display: inline-block;
 }
-.rose img{
+
+.rose img {
     width: 15px;
+}
+
+i {
+    color: white;
+
+}
+
+.list {
+    color: #788ddb;
 }
 
 .acquamarine {
     width: 73%;
-    border: 2px dotted black;
     display: flex;
 }
 
 .box {
-    background-color: #4db3ab;
     width: 25%;
     height: 100%;
     margin: 0 auto;
-    border: 2px dotted white;
+    flex-direction: column;
+}
+
+ul {
+    flex-direction: column;
+    color: white;
+}
+
+li {
+    line-height: 35px;
 }
 
 hr {
     border: 1px solid #d3d3d3;
+    width: 1152px;
+    margin: 0 auto;
 }
+
+/* footer */
 
 footer {
     width: 100%;
@@ -264,23 +283,27 @@ footer {
     padding: 15px;
     padding-left: 0;
     padding-right: 0;
-    background-color: #4db3ab;
     width: 60%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    background-color: #788ddb;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .log {
-    background-color: lightgray;
     display: flex;
-    padding: 5px;
-}
-
-.button {
-    color: lightgray;
-    display: flex;
-    flex-grow: 3;
-    justify-content: end;
+    background-image: url(../img/logo.svg);
+    background-size: cover;
+    width: 15%;
 }
 
 input {
