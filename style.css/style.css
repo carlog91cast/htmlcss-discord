@@ -75,18 +75,36 @@ ul {
 
 
 .main-content {
-    background-color: #0c258b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     width: 100%;
-    padding: 2%;
 }
 
 .sub {
-    background-color: #ed82ee;
-    padding: 10%;
+    padding: 14%;
+    padding-right: 0;
+    padding-left: 0;
     width: 40%;
     margin: 0 auto;
-    border: 2px dashed black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
+.sub h1{
+    padding: 4%;
+    
+}
+.sub div a{
+    color: #23272a;
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+
 
 /* <!-- primo flex (celeste/rosa) --> */
 
